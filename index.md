@@ -28,3 +28,5 @@ static List<String> filter(List<String> list, StringChecker sc) {
   }
 ```
 
+## Part 3
+Before week 2, I didn't know about the URL Handler, I didn't know that we could make codes that correspond to the URL changes. Now I could make my website have more options than saying ```404``` if the URL isn't correct.
