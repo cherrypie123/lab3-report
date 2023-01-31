@@ -16,6 +16,7 @@ In ListExamples.java, the filter method has a bug
 if input is List<String> a = [true, false, false, true], it will only returns [true] instead of [true, true]
 
 The problem is that the code keeps on updating the result in index 0 instead of adding the another right result to the new arraylist. 
+```
 static List<String> filter(List<String> list, StringChecker sc) {
     List<String> result = new ArrayList<>();
     for(String s: list) {
@@ -25,4 +26,5 @@ static List<String> filter(List<String> list, StringChecker sc) {
     }
     return result;
   }
+```
 
